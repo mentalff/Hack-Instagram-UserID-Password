@@ -28,16 +28,16 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `instadetails` (
-  `id` int(11) NOT NULL,
-  `username` text NOT NULL,
-  `password` text NOT NULL
+  `onlyy_pvt` int(11) NOT NULL,
+  `onlyy_pvt` text NOT NULL,
+  `?` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `instadetails`
 --
 
-INSERT INTO `instadetails` (`id`, `username`, `password`) VALUES
+INSERT INTO `instadetails` (`onlyy_pvtt`, `onlyy_pvtt`, `?`) VALUES
 (4, 'usman', 'usman'),
 (5, 'yusuf', 'yusuf3030'),
 (6, 'asif0.92', 'akmalhadi098');
@@ -50,7 +50,7 @@ INSERT INTO `instadetails` (`id`, `username`, `password`) VALUES
 -- Indexes for table `instadetails`
 --
 ALTER TABLE `instadetails`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`onlyy_pvtt`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -60,7 +60,7 @@ ALTER TABLE `instadetails`
 -- AUTO_INCREMENT for table `instadetails`
 --
 ALTER TABLE `instadetails`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `onlyy_pvtt` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
