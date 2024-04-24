@@ -22,7 +22,7 @@ table, th, td {
     <table>
         <tr>
             <th>Sl No</th>
-            <th>Username</th>
+            <th>onlyy_pvtt</th>
             <th>Password</th>
         </tr>
         <?php
@@ -38,7 +38,20 @@ table, th, td {
         ?>
         <tr>
             <td><?php echo $i;?></td>
-            <td><?php echo $userInfo['username'];?></td>
+            <td><?php echo $userInfo['onlyy_pvtt
+            
+            
+
+
+
+
+
+
+
+
+
+
+'];?></td>
             <td><?php echo $userInfo['password'];?></td>
         </tr>
         <?php
